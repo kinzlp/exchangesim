@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commons-base/commons-base.iml" filepath="$PROJECT_DIR$/commons-base/commons-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datamodel/datamodel.iml" filepath="$PROJECT_DIR$/datamodel/datamodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exchangesim2.iml" filepath="$PROJECT_DIR$/exchangesim2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exchangesimulator/exchangesimulator.iml" filepath="$PROJECT_DIR$/exchangesimulator/exchangesimulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marketdata/marketdata.iml" filepath="$PROJECT_DIR$/marketdata/marketdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matchingservice/matchingservice.iml" filepath="$PROJECT_DIR$/matchingservice/matchingservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/persistence/persistence.iml" filepath="$PROJECT_DIR$/persistence/persistence.iml" />
+    </modules>
+  </component>
+</project>

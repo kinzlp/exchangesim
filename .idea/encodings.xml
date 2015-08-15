@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../stock-exchange-simulator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../stock-exchange-simulator/datastorage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../stock-exchange-simulator/fixconverter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../stock-exchange-simulator/hnxexchangesimulator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../stock-exchange-simulator/marketinfogenerator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../stock-exchange-simulator/matching" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../stock-exchange-simulator/model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../stock-exchange-simulator/validator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../vnds-common-lib" charset="UTF-8" />
+  </component>
+</project>
