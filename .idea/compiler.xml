@@ -126,27 +126,156 @@
         <processorPath useClasspath="true" />
         <module name="marketdata" />
       </profile>
+      <profile default="false" name="Annotation profile for quickfixj-examples-banzai" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-examples-banzai" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-examples-executor" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-examples-executor" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-codegenerator" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-codegenerator" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-messages-fix50sp2" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-messages-fix50sp2" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-messages-fix50" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-messages-fix50" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-messages-fix41" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-messages-fix41" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-messages-fix42" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-messages-fix42" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-messages-fix40" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-messages-fix40" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-all" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-all" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-messages-fixt11" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-messages-fixt11" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-messages-fix43" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-messages-fix43" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-messages-all" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-messages-all" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-core" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-messages-fix50sp1" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-messages-fix50sp1" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-messages-fix44" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-messages-fix44" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-examples-ordermatch" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-examples-ordermatch" />
+      </profile>
+      <profile default="false" name="Annotation profile for quickfixj-dictgenerator" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="quickfixj-dictgenerator" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="commons-base" target="1.8" />
       <module name="datamodel" target="1.8" />
-      <module name="datastorage" target="1.7" />
       <module name="exchangesim2" target="1.8" />
       <module name="exchangesimulator" target="1.8" />
-      <module name="fixconverter" target="1.7" />
       <module name="gateway" target="1.8" />
-      <module name="hnxexchangesimulator" target="1.7" />
       <module name="marketdata" target="1.8" />
-      <module name="marketinfogenerator" target="1.7" />
-      <module name="matching" target="1.7" />
       <module name="matchingservice" target="1.8" />
-      <module name="model" target="1.7" />
-      <module name="monitor" target="1.7" />
-      <module name="parent" target="1.5" />
       <module name="persistence" target="1.8" />
-      <module name="untitled" target="1.8" />
-      <module name="validator" target="1.7" />
-      <module name="vnds-common-lib" target="1.7" />
+      <module name="quickfixj-all" target="1.6" />
+      <module name="quickfixj-codegenerator" target="1.6" />
+      <module name="quickfixj-core" target="1.6" />
+      <module name="quickfixj-dictgenerator" target="1.6" />
+      <module name="quickfixj-distribution" target="1.5" />
+      <module name="quickfixj-examples" target="1.5" />
+      <module name="quickfixj-examples-banzai" target="1.6" />
+      <module name="quickfixj-examples-executor" target="1.6" />
+      <module name="quickfixj-examples-ordermatch" target="1.6" />
+      <module name="quickfixj-messages" target="1.5" />
+      <module name="quickfixj-messages-all" target="1.6" />
+      <module name="quickfixj-messages-fix40" target="1.6" />
+      <module name="quickfixj-messages-fix41" target="1.6" />
+      <module name="quickfixj-messages-fix42" target="1.6" />
+      <module name="quickfixj-messages-fix43" target="1.6" />
+      <module name="quickfixj-messages-fix44" target="1.6" />
+      <module name="quickfixj-messages-fix50" target="1.6" />
+      <module name="quickfixj-messages-fix50sp1" target="1.6" />
+      <module name="quickfixj-messages-fix50sp2" target="1.6" />
+      <module name="quickfixj-messages-fixt11" target="1.6" />
+      <module name="quickfixj-parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

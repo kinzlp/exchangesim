@@ -10,13 +10,12 @@
 
     <properties>
         <spring.version>4.1.1.RELEASE</spring.version>
+        <simulator.version>1.0-SNAPSHOT</simulator.version>
     </properties>
     <modules>
         <module>datamodel</module>
         <module>persistence</module>
-        <module>untitled</module>
         <module>matchingservice</module>
-        <module>untitled</module>
         <module>gateway</module>
         <module>commons-base</module>
         <module>exchangesimulator</module>
@@ -51,6 +50,11 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>2.0.1</version>
         </dependency>
     </dependencies>
 

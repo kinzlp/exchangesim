@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <!-- Fix adaptor -->
+       <bean name="com.mk.exsim.gateway.fix.fixAdaptorService" class="com.mk.exsim.gateway.fix.FixAdaptorService"
+               init-method="start" destroy-method="stop">
+              <constructor-arg index="0" value="fixgateway.cfg"/>
+              <constructor-arg index="1" ref="com.mk.exsim.gateway.fix.fixAdaptor"/>
+       </bean>
+
+       <bean name="com.mk.exsim.gateway.fix.fixAdaptor" class="com.mk.exsim.gateway.fix.FixAdaptor">
+       </bean>
+</beans>
