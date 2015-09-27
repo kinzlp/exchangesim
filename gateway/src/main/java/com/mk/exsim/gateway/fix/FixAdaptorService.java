@@ -22,10 +22,10 @@ import static quickfix.Acceptor.*;
  */
 public class FixAdaptorService {
     private static final Logger log = LoggerFactory.getLogger(FixAdaptorService.class);
+
     private final SocketAcceptor acceptor;
     private final JmxExporter jmxExporter;
     private final ObjectName connectorObjectName;
-
     private final Map<InetSocketAddress, List<TemplateMapping>> dynamicSessionMappings = new
             HashMap<>();
 

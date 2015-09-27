@@ -3,10 +3,11 @@ package com.mk.exsim.datamodel;
 import jdk.nashorn.internal.ir.annotations.Immutable;
 
 /**
- * Created by macbookpro on 8/18/2015.
+ *
  */
 @Immutable
 public class Execution {
+
     private final String symbol;
     private final int quantity;
     private final OrderSide side;
@@ -14,6 +15,14 @@ public class Execution {
     private final String id;
     private final String exchangeId;
 
+    /**
+     * @param symbol
+     * @param quantity
+     * @param side
+     * @param price
+     * @param id
+     * @param exchangeId
+     */
     public Execution(String symbol, int quantity, OrderSide side, double price, String id, String exchangeId) {
         this.symbol = symbol;
         this.quantity = quantity;
